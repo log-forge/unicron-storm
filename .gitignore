@@ -1,0 +1,77 @@
+# OS / editor junk
+.DS_Store
+Thumbs.db
+Desktop.ini
+*.swp
+*.swo
+*~
+.idea/
+.vscode/
+*.iml
+
+# Local planning scratch files
+.planning/
+
+# Secrets / local env
+.env
+.env.*
+!.env.example
+!.env.sample
+!.env.template
+.envrc
+.direnv/
+.secrets/
+*.token
+client_secret*.json
+
+# Local certificates / keys
+*.crt
+*.key
+*.pem
+*.p12
+*.pfx
+*.jks
+
+# Harness run output
+.out/
+logs/
+*.log
+*.tmp
+*.bak
+*.orig
+*.rej
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.egg-info/
+.venv/
+venv/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+.coverage.*
+htmlcov/
+coverage.xml
+
+# Node / TS tooling if scenario helpers need it later
+node_modules/
+*.tsbuildinfo
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+dist/
+build/
+out/
+.cache/
+.turbo/
+.next/
+.vite/
+.react-router/
+coverage/
+
+# Local audit artifacts
+/.workspace-files*.txt
